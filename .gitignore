@@ -78,6 +78,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Ignores all jupyter notebooks prefaced with "run_" signaling they have been run
+**/run_*
+
+
+
 # IPython
 profile_default/
 ipython_config.py
@@ -172,3 +177,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
