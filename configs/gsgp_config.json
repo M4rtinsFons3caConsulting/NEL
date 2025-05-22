@@ -1,0 +1,58 @@
+{
+  "system_params": {
+    "random_seed": 1111,
+    "verbose": true,
+    "n_jobs": 18,
+    "train_color": "blue",
+    "test_color": "orange"
+  },
+  "data_params": {
+    "dataset_path": "data/sustavianfeed.xlsx",
+    "target_variable": "crude_protein",
+    "train_test_split": 0.8,
+    "outter_folds": 5,
+    "inner_folds": 5
+  },
+  "solver_params": {
+    "dataset_name": "sustavianfeed",
+    "algorithm": "gsgp",
+    "initializer": "grow",
+    "elitism": true,
+    "n_elites": 1,
+    "fitness_function": "rmse",
+    "minimization": true,
+    "init_depth": 4,
+    "n_iter": 100,
+    "tournament_size": 2,
+    "tree_constants": [
+      0.21760077176688164,
+      0.3443807346030824,
+      0.6422536234699076,
+      0.36413206493253214,
+      0.08358916437841302,
+      0.5040914040192876,
+      0.18743462930144428,
+      0.8842252761132199,
+      0.33821341140965044,
+      -1.0
+    ],
+    "tree_functions": ["add", "subtract"],
+    "reconstruct":true
+  },
+  "grid_params": {
+    "pop_size": [25, 50, 75],
+    "prob_const": [0.7, 0.8, 0.9],
+    "p_xo": [0.85, 0.9, 0.95],
+    "ms_lower": [0, 0.033, 0.066],
+    "ms_upper": [0.13333, 0.16666, 0.2]
+  },
+  "logging_params": {
+    "log_path": "./log/PD2/",
+    "log_file": "avianfeed",
+    "log_level": 2,
+    "verbose": true
+  }
+}
+
+
+

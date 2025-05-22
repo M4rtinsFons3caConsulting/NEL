@@ -1,0 +1,20 @@
+[project]
+name = "nel_utils"
+version = "0.1.0"
+description = "Helper functions for Neuro Evolutionary Learning"
+authors = [
+    { name = "Group 69 - MsC in Data Science @NovaIMS 2024/2025" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gmpy2"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

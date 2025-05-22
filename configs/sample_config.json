@@ -1,0 +1,50 @@
+{
+  "system_params": {
+    "random_seed": 1111,
+    "verbose": true,
+    "train_color": "blue",
+    "test_color": "orange"
+  },
+  "solution_space": {
+    "dataset_path": "data/sustavianfeed.xlsx",
+    "target_variable": "crude_protein",
+    "features": ["feature1", "feature2", "feature3"],
+    "train_test_split": 0.8
+  },
+  "solver_params": {
+    "fitness_function": "rmse",
+    "minimization": true,
+    "algorithm": "genetic_programming",
+    "max_generations": 30,
+    "population_size": [30, 50, 70],
+    "cv_folds": 10,
+    "elitism": true,
+    "n_elites": 1
+  },
+  "model_hyperparams": {
+    "crossover_rate": [0.7, 0.8, 0.9],
+    "tournament_size": [2, 3, 5],
+    "max_tree_depth": [5, 7, 10],
+    "initializer": ["grow", "full"],
+    "tree_constants": [
+      0.21760077176688164,
+      0.3443807346030824,
+      0.6422536234699076,
+      0.36413206493253214,
+      0.08358916437841302,
+      0.5040914040192876,
+      0.18743462930144428,
+      0.8842252761132199,
+      0.33821341140965044,
+      -1.0
+    ],
+    "tree_functions": ["add", "subtract"],
+    "prob_constant": [0.7, 0.8, 0.9],
+    "max_init_depth": [3, 4, 5]
+  },
+  "logging": {
+    "log_level": 2,
+    "log_dir": "./log/PD2/",
+    "log_file": "gp_sustavianfeed.csv"
+  }
+}
