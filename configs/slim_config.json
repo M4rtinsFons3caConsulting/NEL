@@ -23,7 +23,7 @@
     "minimization": true,
     "init_depth": 4,
     "n_iter": 150,
-    "tournament_size": 4,
+    "tournament_size": 2,
     "tree_constants": [
       0.21760077176688164,
       0.3443807346030824,
@@ -46,12 +46,12 @@
     "ms_upper": [1, 0.16666],
     "p_inflate": [0.5, 0.75],
     "slim_version" : ["SLIM+SIG2", "SLIM+SIG1", "SLIM+ABS", "SLIM*SIG2", "SLIM*SIG1", "SLIM*ABS"],
-    "max_depth": [30, 20, 30]
+    "max_depth": [10, 20, 30]
   },
   "logging_params": {
     "log_path": "./log/PD3/",
     "log_file": "avianfeed",
-    "log_level": 2,
+    "log_level": 3,
     "verbose": true
   }
 }
