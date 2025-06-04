@@ -1,6 +1,6 @@
-Fold 0: RMSE = 2.3649929107930903, Best Params = {'pop_size': 75, 'weight_mutate_rate': 0.9, 'node_add_prob': 0.8, 'conn_add_prob': 0.1, 'survival_threshold': 0.1, 'max_stagnation': 10}
-Fold 1: RMSE = 2.5807800293938223, Best Params = {'pop_size': 75, 'weight_mutate_rate': 0.3, 'node_add_prob': 0.1, 'conn_add_prob': 0.1, 'survival_threshold': 0.1, 'max_stagnation': 30}
-Fold 2: RMSE = 4.145585415713005, Best Params = {'pop_size': 50, 'weight_mutate_rate': 0.9, 'node_add_prob': 0.1, 'conn_add_prob': 0.1, 'survival_threshold': 0.1, 'max_stagnation': 10}
+Fold 0: RMSE = 5.482324869967577, Best Params = {'pop_size': 50, 'weight_mutate_rate': 0.3, 'node_add_prob': 0.1, 'conn_add_prob': 0.1, 'survival_threshold': 0.1, 'max_stagnation': 10}
+Fold 1: RMSE = 2.8044022941430073, Best Params = {'pop_size': 75, 'weight_mutate_rate': 0.3, 'node_add_prob': 0.1, 'conn_add_prob': 0.8, 'survival_threshold': 0.1, 'max_stagnation': 10}
+Fold 2: RMSE = 2.7719144489909104, Best Params = {'pop_size': 75, 'weight_mutate_rate': 0.3, 'node_add_prob': 0.1, 'conn_add_prob': 0.1, 'survival_threshold': 0.5, 'max_stagnation': 10}
 
-Mean Test RMSE: 3.0304527852999725
-Best Fold: 0 with RMSE 2.3649929107930903
+Mean Test RMSE: 3.6862138710338317
+Best Fold: 2 with RMSE 2.7719144489909104
